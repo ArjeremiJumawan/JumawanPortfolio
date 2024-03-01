@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `admindetail` (
 -- Dumping data for table saavcms.admindetail: ~0 rows (approximately)
 DELETE FROM `admindetail`;
 INSERT INTO `admindetail` (`id`, `firstName`, `lastName`, `aboutMe`, `experience`, `lastChange`, `email`, `contact`, `occup`, `birthday`, `web`, `address`) VALUES
-	(1, 'Arjeremi P.', 'Jumawan', 'asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd', 'My Experience zxczxcxchere', '2024-03-01 20:10:43', 'userjeremy200101@gmail.com', '(+63) 9052482879', 'graphic designer', 'August 1, 2001', 'www.myWeb.com', '12312312bahay');
+	(1, 'Arjeremi P.', 'Jumawan', 'asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd', 'My Experience zxczxcxchere', '2024-03-01 20:10:43', 'userjeremy200101@gmail.com', '(+63) 9052482879', 'graphic designer', 'August 1, 2001', 'www.myWeb.com', 'Mangusu ZC');
 
 -- Dumping structure for table saavcms.education
 CREATE TABLE IF NOT EXISTS `education` (
