@@ -1,9 +1,15 @@
+/**
+* Template Name: iPortfolio - v3.10.0
+* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #272829;
 }
 
@@ -23,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Mrs Eaves", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -50,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: maroon;
+  background: rgb(191, 64, 191);
   color: #fff;
 }
 
@@ -62,25 +68,19 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-
-
 #header {
-  position: top;
+  position: fixed;
   top: 0;
-  left: 20;
+  left: 0;
   bottom: 0;
-  width: 30px;
+  width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: rgb(76, 0, 97);
-  opacity: 80%;
+  background: rgb(150, 26, 127);
   overflow-y: auto;
-  animation: slideFromLeft 0.5s ease-in-out;
 }
-
-
 
 #header .profile img {
   margin: 15px auto;
@@ -121,7 +121,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: maroon;
+  background: rgb(191, 64, 191);
   color: #fff;
   text-decoration: none;
 }
@@ -145,7 +145,7 @@ h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 20px 0 0 0;
+  padding: 30px 0 0 0;
 }
 
 .nav-menu * {
@@ -163,8 +163,8 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
-  padding: 8px 10px;
+  color: #ffffff;
+  padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
@@ -173,8 +173,8 @@ h6 {
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 24px;
-  padding-right: 6px;
-  color: rgb(199, 83, 235)
+  padding-right: 8px;
+  color: #b72be2;
 }
 
 .nav-menu a:hover,
@@ -202,9 +202,9 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(191, 64, 191);
   color: #fff;
-  width: 20px;
+  width: 40px;
   height: 40px;
   display: inline-flex;
   align-items: center;
@@ -255,34 +255,22 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  transform: translateY(50px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
-  font-family: 'Mrs Eaves', sans-serif; 
-  }
-  
-
+}
 
 #hero p {
-  
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serifM;
-  transform: translateY(50px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+  font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid maroon;
+  border-bottom: 3px solid rgb(191, 64, 191);
 }
-#hero.in-view h1,
-#hero.in-view p {
-  opacity: 1;
-  transform: translateY(0);
-}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -293,9 +281,6 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
-    font-family: 'Mrs Eaves', sans-serif;
-    }
-    
   }
 
   #hero h2 {
@@ -303,18 +288,18 @@ h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
 
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 50px;
+  padding: 60px 0;
   overflow: hidden;
 }
 
 .section-bg {
-
-  background: white
+  background: #f5f8fd;
 }
 
 .section-title {
@@ -334,9 +319,9 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 10000px;
-  height: 5px;
-  background: rgb(206, 111, 235);
+  width: 50px;
+  height: 3px;
+  background: rgb(191, 64, 191);
   bottom: 0;
   left: 0;
 }
@@ -351,7 +336,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: rgb(206, 111, 235);
+  color: rgb(191, 64, 191);
 }
 
 .about .content ul {
@@ -372,7 +357,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: rgb(206, 111, 235);
+  color: rgb(191, 64, 191);
   line-height: 0;
 }
 
@@ -395,7 +380,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: rgb(206, 111, 235);
+  color: rgb(191, 64, 191);
   float: left;
   line-height: 0;
 }
@@ -414,21 +399,21 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: rgb(206, 111, 235);
+  color: rgb(191, 64, 191);
 }
 
 .facts .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
-  color: rgb(206, 111, 235);
+  color: rgb(191, 64, 191);
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
 .facts .count-box a:hover {
-  color: rgb(206, 111, 235);
+  color: rgb(191, 64, 191);
 }
 
 /*--------------------------------------------------------------
@@ -465,7 +450,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: maroon;
+  background-color: rgb(191, 64, 191);
 }
 
 /*--------------------------------------------------------------
@@ -922,7 +907,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: maroon;
+  background: rgb(191, 64, 191);
   color: #fff;
 }
 
@@ -1011,7 +996,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: maroon;
+  background: rgb(191, 64, 191);
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1121,13 +1106,5 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
-  }
-}
-@keyframes slideFromLeft {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
   }
 }
