@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `admindetail` (
 -- Dumping data for table saavcms.admindetail: ~0 rows (approximately)
 DELETE FROM `admindetail`;
 INSERT INTO `admindetail` (`id`, `firstName`, `lastName`, `aboutMe`, `experience`, `lastChange`, `email`, `contact`, `occup`, `birthday`, `web`, `address`) VALUES
-	(1, 'Christine Jane C.', 'Saavedra', 'asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd', 'My Experience zxczxcxchere', '2023-03-12 20:10:43', 'nielchristlee.madriaga@gmail.com', '(+63) 975 276 1170', 'WebDeveloper', 'May 1, 1995', 'www.myWeb.com', '123123123 bahay bahay bahay');
+	(1, 'Arjeremi P.', 'Jumawan', 'asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd', 'My Experience zxczxcxchere', '2023-03-12 20:10:43', 'nielchristlee.madriaga@gmail.com', '(+63) 975 276 1170', 'WebDeveloper', 'May 1, 1995', 'www.myWeb.com', '123123123 bahay bahay bahay');
 
 -- Dumping structure for table saavcms.education
 CREATE TABLE IF NOT EXISTS `education` (
