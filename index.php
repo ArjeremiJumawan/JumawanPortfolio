@@ -14,7 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Mrs+Eaves:300,400,500,600,700|Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Mrs+Eaves:300,400,500,600,700|Oswald:wght@200..700&display=swap|DM+Serif+Display:ital@0;1&display=swap|DM+Serif+Display:ital@0;1&family=Lobster&display=swap|DM+Serif+Display:ital@0;1&family=Lobster&family=Madimi+One&display=swap" rel="stylesheet">
 " rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -53,7 +53,7 @@
 
       </div>
       <nav>
-      <nav id="navbar" class="nav-menu navbar close">
+      <nav id="navbar" class="nav-menu navbar">
         <div class="logo">
           <img src="assets/img/logo.jpg" alt="">
           <h1>AJ Portfolio</h1>

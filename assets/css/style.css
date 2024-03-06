@@ -169,7 +169,8 @@ h6 {
 .logo h1{
   margin-left: 1rem;
   text-transform: uppercase;
-  font-size: 150%;
+  font-size: 180%;
+  color: white;
 }
 .nav-menu .navbar .toggle{
   position: absolute;
@@ -277,25 +278,30 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 90px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-}
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
 
 #hero p {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 26px;
-  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-#hero p span {
+/* #hero p span {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid rgb(191, 64, 191);
-}
+  border-bottom: 3px solid rgb(255, 255, 255);
+} */
 
 @media (min-width: 1024px) {
   #hero {
