@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -147,13 +147,39 @@ h6 {
 .nav-menu {
   padding: 30px 0 0 0;
 }
-
+.nav-menu .close{
+  width: 78px;
+}
 .nav-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
+.logo{
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logo h1{
+  margin-left: 1rem;
+  text-transform: uppercase;
+  font-size: 150%;
+}
+.nav-menu .navbar .toggle{
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+}
+.nav-menu .close .h1{
+  opacity: 0;
+}
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
@@ -174,7 +200,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #b72be2;
+  color: #ffffff;
 }
 
 .nav-menu a:hover,
@@ -182,14 +208,14 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
   text-decoration: none;
-  color: #fff;
+  color: #9e119e;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover > a i {
-  color: rgb(255, 255, 255);
+  color: #9e119e;
 }
 
 /* Mobile Navigation */
@@ -202,7 +228,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: rgb(191, 64, 191);
+  background-color: rgb(255, 0, 212);
   color: #fff;
   width: 40px;
   height: 40px;
@@ -261,7 +287,7 @@ h6 {
   color: #fff;
   margin-bottom: 50px;
   font-size: 26px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 #hero p span {

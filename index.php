@@ -14,7 +14,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Mrs+Eaves:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Mrs+Eaves:300,400,500,600,700|Oswald:wght@200..700&display=swap" rel="stylesheet">
 " rel="stylesheet">
 
   <!-- Vendor CSS Files -->
@@ -52,8 +52,13 @@
       ?>
 
       </div>
-
-      <nav id="navbar" class="nav-menu navbar">
+      <nav>
+      <nav id="navbar" class="nav-menu navbar close">
+        <div class="logo">
+          <img src="assets/img/logo.jpg" alt="">
+          <h1>AJ Portfolio</h1>
+        </div>
+        <i class='bx bx-chevron-right toggle'></i>
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
@@ -63,8 +68,7 @@
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
           <li><a href="cv_jez.pdf" target="_blank" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         </ul>
-      </nav><!-- .nav-menu -->
-    </div>
+      </nav>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
