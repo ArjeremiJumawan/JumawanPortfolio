@@ -8,6 +8,11 @@
   <title>Jumawan Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <!DOCTYPE html>
+
+  <!-- Link Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -15,7 +20,6 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Mrs+Eaves:300,400,500,600,700|Oswald:wght@200..700&display=swap|DM+Serif+Display:ital@0;1&display=swap|DM+Serif+Display:ital@0;1&family=Lobster&display=swap|DM+Serif+Display:ital@0;1&family=Lobster&family=Madimi+One&display=swap" rel="stylesheet">
-" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -50,24 +54,85 @@
         $row = mysqli_fetch_assoc($result);
       }
       ?>
-
       </div>
-      <nav>
+
+      <!-- <div class="sidebar">
+    <div class="logo_details">
+      <i class="bx bxl-audible icon"></i>
+      <div class="logo_name">AJ Portfolio</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <a href="#">
+          <i class="bx bx-grid-alt"></i>
+          <span class="link_name">Home</span>
+        </a>
+        <span class="tooltip">Home</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-user"></i>
+          <span class="link_name">About</span>
+        </a>
+        <span class="tooltip">About</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-user"></i>
+          <span class="link_name">Experiences</span>
+        </a>
+        <span class="tooltip">Experiences</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-user"></i>
+          <span class="link_name">Education</span>
+        </a>
+        <span class="tooltip">Education</span>
+      </li>
+      <li>
+          <i class="bx bx-folder"></i>
+          <span class="link_name">Skills</span>
+        </a>
+        <span class="tooltip">Skills</span>
+      </li>
+      <li>
+          <i class="bx bx-book-content"></i>
+          <span class="link_name">Portfolio</span>
+        </a>
+        <span class="tooltip">Portfolio</span>
+      </li>
+      <li>
+          <i class="bx bx-envelope"></i>
+          <span class="link_name">Contact</span>
+        </a>
+        <span class="tooltip">Contact</span>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <div class="text">Dashboard</div>
+  </section>
+  Scripts
+  <script src="main.js"></script> -->
       <nav id="navbar" class="nav-menu navbar">
         <div class="logo">
           <img src="assets/img/logo.jpg" alt="">
           <h1>AJ Portfolio</h1>
         </div>
-        <i class='bx bx-chevron-right toggle'></i>
-        <ul>
+        <ul class="nav-list">
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#experience" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Experiences</span></a></li>
           <li><a href="#educ" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Education</span></a></li>
           <li><a href="#skill" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Skill</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
           <li><a href="cv_jez.pdf" target="_blank" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
         </ul>
+        <section class="home-section">
+  </section>
       </nav>
   </header><!-- End Header -->
 
@@ -253,73 +318,41 @@
     }
     ?>
     <section id="contact" class="contact">
-      <div class="container">
+  <div class="container">
 
-        <div class="section-title">
-          <h2>Contact</h2>
+    <div class="section-title">
+      <h2>Contact</h2>
+    </div>
+
+    <div class="row" data-aos="fade-in">
+
+      <div class="col-lg-5 d-flex align-items-stretch">
+      <div class="info-container">
+  <div class="info">
+    <div class="address">
+      <i class="bi bi-geo-alt"></i>
+      <h4>Location:</h4>
+      <p><?php echo $row['address'] ?></p>
+    </div>
+
+    <div class="email">
+      <i class="bi bi-envelope"></i>
+      <h4>Email:</h4>
+      <p><?php echo $row['email'] ?></p>
+    </div>
+
+    <div class="phone">
+      <i class="bi bi-phone"></i>
+      <h4>Call:</h4>
+      <p><?php echo $row['contact'] ?></p>
+    </div>
+  </div>
+  </div>
         </div>
-
-        <div class="row" data-aos="fade-in">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p><?php echo $row['address'] ?></p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p><?php echo $row['email'] ?></p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p><?php echo $row['contact'] ?></p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
+    </div>
+</section>
+</main><!-- End #main -->
 
  
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

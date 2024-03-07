@@ -3,15 +3,15 @@ body {
   font-size: 14px;
   padding: 0;
   margin: 0;
-  background-color: rgb(150, 161, 184);
+  background-color: #ffffff;
 }
 button {
   border-radius: 20px;
   border: 0px solid;
   padding: 10px;
   font-weight: bold;
-  background-color: #040b14;
-  color: rgb(255, 255, 255);
+  background-color: #bb3dd4;
+  color: #ffffff;
   font-size: 11px;
 }
 
@@ -21,7 +21,7 @@ button:hover {
   padding: 10px;
   color: white;
   font-weight: bolder;
-  background-color: #163663;
+  background-color: #bb3dd4;
 }
 
 .container {
@@ -36,7 +36,7 @@ button:hover {
 .mainTitle {
   font-size: 50px;
   font-weight: bolder;
-  color: rgb(51, 41, 93);
+  color: #bb3dd4;
   margin-bottom: 30px;
 }
 
@@ -45,7 +45,7 @@ button:hover {
   font-size: 30px;
   color: rgb(0, 0, 0);
   margin-bottom: 20px;
-  border-top: 10px #163663 solid;
+  border-top: 10px#bb3dd4;
 }
 
 .educTable {
